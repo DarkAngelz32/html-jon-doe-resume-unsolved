@@ -95,6 +95,7 @@ test.describe("HTML Structure Validation", () => {
         });
         expect(htmlElement, "HTML element should be found").not.toBeUndefined();
         expect(
+
           topLevelNodes.length,
           "Only HTML should exist at top level"
         ).toBe(1);
@@ -158,7 +159,7 @@ test.describe("HTML Structure Validation", () => {
           children.length,
           "HTML should have exactly two children (HEAD and BODY)"
         ).toBe(2);
-
+        
         if (children.length !== 2) {
           test.info().annotations.push({
             type: "error",
