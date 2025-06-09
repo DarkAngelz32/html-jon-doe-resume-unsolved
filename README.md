@@ -6,7 +6,6 @@
 
 In this activity, you will create a basic resume webpage using HTML. This activity will demonstrate that by understanding the fundamentals of HTML, you can construct actual web pages!
 
-
 Make sure to watch the [INTRO VIDEO](https://www.loom.com/share/7dc80d1a15f74d718dba51ed8490cacd?sid=40bfa1ba-526c-49b2-993f-7822deb6f731) before you start.
 
 ## Learning objectives
@@ -41,7 +40,7 @@ This assignment should prove that a student is able to:
 - [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [x] Initialize playwright and install project packages
   - [x] Use `npm i` to install packages
-  - [x] Use `npm run browser-install` to install the browser environment for testing 
+  - [x] Use `npm run browser-install` to install the browser environment for testing
 - [x] All the tasks of the "Specific requirements" section MUST be solved
 - [x] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
   - [x] Use `npm run test` to run all tests in the terminal
@@ -84,8 +83,8 @@ All the tasks in the requirements are related to the index.html file! Consider "
 
 ### Part 2: Testing the magic of id and class attributes
 
-- [ ] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
-- [ ] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
+- [x] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
+- [x] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
 - [ ] The page heading should have the id of "candidate-name"
 - [ ] The desired role section heading should the id of "candidate-desired-role"
 - [ ] The "About me" section heading should have an id of "about-me".
